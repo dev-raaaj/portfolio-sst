@@ -1,27 +1,27 @@
 
 :root {
-  /* Backgrounds & Surfaces (Derived from upper warm tones, slightly deepened) */
+ 
   --bg: #ece5d8;
   --surface: #e1d8c7;
   --surface-elevated: #d6ccb9;
   
-  /* Borders & Structure */
+ 
   --border: #c8bdab;
   --border-focus: #5b87a8;
 
-  /* Typography (High contrast for accessibility) */
+ 
   --text-main: #181d22;
   --text-muted: #4e5762;
   --text-dim: #79828d;
 
-  /* Accent Tones (Deepened Peach & Cornflower/Steel Blue from image) */
-  --accent: #2e6b9e;              /* Deepened bottom blue */
-  --accent-light: #5b87a8;        /* Soft mid-blue */
-  --accent-peach: #b86e3f;        /* Deepened peach/terracotta */
+  
+  --accent: #2e6b9e;             
+  --accent-light: #5b87a8;      
+  --accent-peach: #b86e3f;     
   --accent-glow: rgba(46, 107, 158, 0.18);
   --success: #2d7a46;
 
-  /* Fonts & Mechanics */
+ 
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: 'Geist Mono', monospace;
   --radius: 8px;
@@ -106,7 +106,7 @@ body {
   padding: 2rem 0 6rem;
 }
 
-/* KEYFRAME ANIMATIONS */
+
 @keyframes pulse-dot {
   0%, 100% { transform: scale(1); opacity: 1; }
   50% { transform: scale(1.35); opacity: 0.45; }
@@ -149,7 +149,6 @@ body {
   animation: pulse-dot 2.5s infinite ease-in-out;
 }
 
-/* TYPOGRAPHY */
 h1 {
   font-size: clamp(2rem, 5vw, 2.75rem);
   font-weight: 700;
@@ -185,7 +184,7 @@ h1 {
   font-weight: 500;
 }
 
-/* SECTION BASICS */
+
 section {
   margin-bottom: 5rem;
 }
@@ -213,9 +212,7 @@ section {
   width: 100%;
 }
 
-/* ==========================================================================
-   WEB DEV FUNDAMENTALS FLOW
-   ========================================================================== */
+
 .arch-flow {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
